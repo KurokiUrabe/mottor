@@ -1,0 +1,47 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "git.autofetch": true,
+  "files.autoSave": "onFocusChange",
+  "workbench.iconTheme": "vscode-icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.inlineHints.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "files.exclude": {
+    "*.lock": true
+  },
+  "window.title": "${dirty}${folderPath}${separator}${activeEditorMedium}",
+  "window.titleSeparator": " -> ",
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.options": {
+    "parserOptions": {
+      "project": ["${workspaceFolder}/tsconfig.json"]
+    }
+  }
+}
